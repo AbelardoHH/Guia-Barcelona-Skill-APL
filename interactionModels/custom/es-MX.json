@@ -1,0 +1,80 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "Cencelar"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "Ayuda"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "Detener"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "descripcionIntent",
+          "samples": [
+            "Describe la ciudad de Barcelona",
+            "Hablame de la ciudad de Barcelona"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "lugaresIntent",
+          "samples": [
+            "listame los lugares turisticos de barcelona",
+            "dime los lugares turisticos de barcelona"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "comidaIntent",
+          "samples": [
+            "muestrame la comida tipica de barcelona",
+            "dime la comida tipica de barcelona"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "trajeIntent",
+          "samples": [
+            "cual es el traje tipico de barcelona",
+            "dime el traje tipico de barcelona"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "personajesIntent",
+          "samples": [
+            "listame los personajes sobresalientes de barcelona",
+            "dime los personajes sobresalientes de Barcelona"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "musicaIntent",
+          "samples": [
+            "dime cual es la musica tipica de barcelona",
+            "reproduce la musica tipica de barcelona"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "guia barcelona"
+    }
+  }
+}
